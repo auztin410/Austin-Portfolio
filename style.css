@@ -26,6 +26,7 @@ section:nth-of-type(1) {
   background-position: center;
   -webkit-animation: Section 2s forwards 0s linear;
           animation: Section 2s forwards 0s linear;
+  text-align: center;
 }
 
 section:nth-of-type(2) {
@@ -63,6 +64,33 @@ section .me {
   margin-right: auto;
   margin-top: 5vh;
   border-radius: 50%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#email {
+  font-size: 2em;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+  color: white;
+}
+
+#linkedin {
+  font-size: 2em;
+  margin-left: 2vw;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+  color: white;
+}
+
+#github {
+  font-size: 2em;
+  margin-left: 2vw;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+  color: white;
 }
 
 @-webkit-keyframes Section {

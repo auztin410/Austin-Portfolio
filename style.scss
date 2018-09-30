@@ -20,6 +20,7 @@ section {
         background-repeat: no-repeat;
         background-position: center;
         animation: Section 2s forwards 0s linear;
+        text-align: center;
     }
     &:nth-of-type(2) {
         background: green;
@@ -54,6 +55,34 @@ section {
         margin-top: 5vh;
         border-radius: 50%;
     }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#email {
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    color: white;
+}
+
+
+#linkedin {
+    font-size: 2em;
+    margin-left: 2vw;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    color: white;
+}
+
+#github {
+    font-size: 2em;
+    margin-left: 2vw;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    color: white;
 }
 
 @keyframes Section{
