@@ -24,15 +24,11 @@ section:nth-of-type(1) {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-animation: Section 2s forwards 0s linear;
-          animation: Section 2s forwards 0s linear;
   text-align: center;
 }
 
 section:nth-of-type(2) {
   background: green;
-  -webkit-animation: Section 2s forwards 0s linear;
-          animation: Section 2s forwards 0s linear;
   background: url("./assets/fullstack.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,8 +37,6 @@ section:nth-of-type(2) {
 
 section:nth-of-type(3) {
   background: purple;
-  -webkit-animation: Section 2s forwards 0s linear;
-          animation: Section 2s forwards 0s linear;
 }
 
 section h1 {
