@@ -19,12 +19,11 @@ section {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        // animation: Section 2s forwards 0s linear;
+        animation: Section 2s forwards 0s linear;
         text-align: center;
     }
     &:nth-of-type(2) {
-        background: green;
-        // animation: Section 2s forwards 0s linear;
+        animation: Section 2s forwards 0s linear;
         background: url("./assets/fullstack.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -32,7 +31,7 @@ section {
     }
     &:nth-of-type(3) {
         background: purple;
-        // animation: Section 2s forwards 0s linear;
+        animation: Section 2s forwards 0s linear;
     }
 
     h1 {
@@ -55,6 +54,21 @@ section {
         margin-top: 5vh;
         border-radius: 50%;
     }
+}
+
+#lang {
+    height: 150px;
+    width: 135px;
+}
+
+.allLanguages {
+    width: 75vw;
+    left: 12.5vw;
+    right: 12.5vw;
+    position: absolute;
+    bottom: 2em;
+    
+    // right: 6em;
 }
 
 a:link {

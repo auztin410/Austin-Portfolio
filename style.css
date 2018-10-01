@@ -24,11 +24,14 @@ section:nth-of-type(1) {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  -webkit-animation: Section 2s forwards 0s linear;
+          animation: Section 2s forwards 0s linear;
   text-align: center;
 }
 
 section:nth-of-type(2) {
-  background: green;
+  -webkit-animation: Section 2s forwards 0s linear;
+          animation: Section 2s forwards 0s linear;
   background: url("./assets/fullstack.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,6 +40,8 @@ section:nth-of-type(2) {
 
 section:nth-of-type(3) {
   background: purple;
+  -webkit-animation: Section 2s forwards 0s linear;
+          animation: Section 2s forwards 0s linear;
 }
 
 section h1 {
@@ -58,6 +63,19 @@ section .me {
   margin-right: auto;
   margin-top: 5vh;
   border-radius: 50%;
+}
+
+#lang {
+  height: 150px;
+  width: 135px;
+}
+
+.allLanguages {
+  width: 75vw;
+  left: 12.5vw;
+  right: 12.5vw;
+  position: absolute;
+  bottom: 2em;
 }
 
 a:link {
