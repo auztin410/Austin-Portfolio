@@ -6,10 +6,6 @@ body {
   overflow-y: scroll;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (100%)[3];
-      grid-template-rows: repeat(3, 100%);
-  -ms-grid-columns: 100vw;
-      grid-template-columns: 100vw;
 }
 
 section {
@@ -132,19 +128,18 @@ h2 {
   padding-top: 5px;
 }
 
+.small {
+  height: 15px;
+  width: 15px;
+}
+
 #card1 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
+  background-color: grey;
   grid-area: 2 / 2 / span 1 / span 1;
 }
 
 #card2 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
+  background-color: grey;
   grid-area: 2 / 3 / span 1 / span 1;
 }
 
