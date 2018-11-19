@@ -183,10 +183,12 @@ h2 {
 
 .allLanguages {
   width: 75vw;
-  left: 12.5vw;
-  right: 12.5vw;
-  position: absolute;
-  bottom: 2em;
+  /* left: 12.5vw;
+  right: 12.5vw; */
+  margin-top: 48vh;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute; */
   -webkit-animation: Languages 1.5s forwards 0s linear;
           animation: Languages 1.5s forwards 0s linear;
 }
